@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Suzi216/Awesome-Book-ES6/issues"
   },
-  "homepage": "https://github.com/Suzi216/Awesome-Book-ES6#readme"
+  "homepage": "https://github.com/Suzi216/Awesome-Book-ES6#readme",
+  "dependencies": {
+    "luxon": "^3.0.1"
+  }
 }
