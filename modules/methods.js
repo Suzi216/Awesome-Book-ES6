@@ -1,11 +1,8 @@
+export const bookdiv = document.querySelector('.books-list');
 export class Book {
   constructor() {
     this.Books = [];
-  }
-  // Add a book
-  // addup(obj) {
-  // this.Books.push(obj);
-  // }
+   }
 
   /// display the books in html page
   display() {
