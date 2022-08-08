@@ -37,7 +37,7 @@ header.addEventListener('click', (e) => {
   }
 });
 
-function updateDate(){
+let updateDate = () => {
   const now = DateTime.now();
   date.innerText=`${now}`;
 }

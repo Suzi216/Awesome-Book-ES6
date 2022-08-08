@@ -5,7 +5,7 @@ export class Book {
    }
 
   /// display the books in html page
-  display() {
+  display = () => {
     bookdiv.innerHTML = '';
     for (let i = 0; i < this.Books.length; i += 1) {
       const listofbook = document.createElement('div');
@@ -23,7 +23,7 @@ export class Book {
   }
 
   // remove the books
-  removebook(id) {
+  removebook = (id)=> {
     this.Books.splice(id, 1);
     window.localStorage.setItem('books', JSON.stringify(this.Books));
     this.display();
