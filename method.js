@@ -1,11 +1,9 @@
-export class Book {
+import { bookdiv } from './modules/getelement.js';
+
+export default class Book {
   constructor() {
     this.Books = [];
   }
-  // Add a book
-  // addup(obj) {
-  // this.Books.push(obj);
-  // }
 
   /// display the books in html page
   display() {
