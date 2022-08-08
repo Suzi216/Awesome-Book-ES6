@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "awesome-book-es6",
   "version": "1.0.0",
   "description": "This is a project that uses ES6 syntax.",
