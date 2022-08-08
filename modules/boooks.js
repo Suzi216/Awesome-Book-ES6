@@ -1,6 +1,6 @@
 export class Boook{
   constructor(title, author){
-    this.title=title;
-    this.author=author;
+    this.title=this.title;
+    this.author=this.author;
   }
 }
