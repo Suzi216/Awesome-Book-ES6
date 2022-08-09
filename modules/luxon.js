@@ -1,5 +1,5 @@
 // these aren't really private, but nor are they really useful to document
-
+/* eslint-disable */
 /**
  * @private
  */
@@ -1567,7 +1567,7 @@ function normalizeZone(input, defaultZone) {
     return input;
   }
   return new InvalidZone(input);
- }
+}
 
 let now = () => Date.now();
 let defaultZone = 'system';

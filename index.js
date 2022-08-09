@@ -15,6 +15,7 @@ addbutton.addEventListener('click', () => {
   window.localStorage.setItem('books', JSON.stringify(bookuse.Books));
   bookuse.display();
 });
+bookuse.display();
 
 // remove the books from list
 bookdiv.addEventListener('click', (e) => {

@@ -4,5 +4,3 @@ export class Boook {
     this.author = author;
   }
 }
-
-// export default Boook;
