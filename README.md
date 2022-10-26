@@ -15,7 +15,7 @@
 
 ## Live demo
 
-You can watch [here](/) a live demo of our project.
+You can watch [here](https://suzi216.github.io/Awesome-Book-ES6/) a live demo of our project.
 
 ## Test
 
